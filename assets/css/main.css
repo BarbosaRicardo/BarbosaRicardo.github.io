@@ -4654,6 +4654,10 @@ div.modal div.modal-backdrop {
 			visibility: visible;
 		}
 
+		body.modal-open div.modal-backdrop { 
+			z-index: 0; 
+		}
+
 	}
 
 	div.modal div.modal-backdrop {
@@ -4661,5 +4665,5 @@ div.modal div.modal-backdrop {
 	}
 
 	body.modal-open div.modal-backdrop { 
-		z-index: 0; 
-	}
+    z-index: 0; 
+}
