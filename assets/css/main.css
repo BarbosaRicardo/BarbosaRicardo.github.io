@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+div.modal div.modal-backdrop {
+    z-index: 0;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -4650,4 +4654,12 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	div.modal div.modal-backdrop {
+		z-index: 0;
+	}
+
+	body.modal-open div.modal-backdrop { 
+		z-index: 0; 
 	}
