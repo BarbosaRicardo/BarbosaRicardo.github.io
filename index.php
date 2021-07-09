@@ -54,9 +54,7 @@
 									<h2><a href="#">CSUMB CS Online Courses and Final Projects</h2>
 									<p> 
 										My name is Ricardo and I am attending CSUMB CS Online between 2019 - 2021.  
-										I am excited in taking the courses that are listed.  I want to be a 
-										full-stack web developer and/or software engineer by the time I am finished 
-										with this program.  Please follow my journey. 
+		
 									</p>
 								</header>
 								<a href="#" class="image main"><img src="images/lighthouse_large.jpg" alt="" /></a>
