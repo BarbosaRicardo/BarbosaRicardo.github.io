@@ -39,7 +39,7 @@
 				Nav
 					<nav id="nav" style="text-align: center;">
 						<ul class="icons" style="text-align: center;">
-							<li><a href="https://www.linkedin.com/in/barbosa-ricard0/" class="icon fa-instagram"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.linkedin.com/in/barbosa-ricard0/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/barbosaricardo" class="icon fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
