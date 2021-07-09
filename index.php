@@ -33,10 +33,10 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">91 Weeks Remaining</a>
+						<a href="index.html" class="logo">Expected Graduation: August 2021</a>
 					</header>
 
-				<!-- Nav -->
+				<!-- Nav
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="https://ricardo-csumb.blogspot.com">Learning Journal</a></li>
@@ -49,7 +49,7 @@
 							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
-					</nav>
+					</nav> -->
 
 				<!-- Main -->
 					<div id="main">
@@ -58,8 +58,7 @@
 							<article class="post featured">
 								<header class="major">
 									<span class="date">August 26, 2019</span>
-									<h2><a href="#">And then there was <br />
-									the beginning</a></h2>
+									<h2><a href="#">CSUMB CS Online Courses and Final Projects</h2>
 									<p> 
 										My name is Ricardo and I am attending CSUMB CS Online between 2019 - 2021.  
 										I am excited in taking the courses that are listed.  I want to be a 
@@ -115,7 +114,7 @@
 														<a class = "modal-footer" href ="https://docs.google.com/document/d/1hmEtH8R4DUc8slFJPEPP5oBdyzw_3fZIHiPfhEvRYgE/edit?usp=sharing">Industry Analysis Paper</a>
 														<a class = "modal-footer" href="https://www.youtube.com/watch?v=mlGg8c8T_f0&feature=youtu.be">10 Minute Final Video</a>
 														<a class = "modal-footer" href="https://youtu.be/9sqlU7v4xeE">5 Minute Final Video</a>
-														<a class = modal-footer" href="#">Ethics Paper</a>
+														
 
 														<br><br>
 														
@@ -133,8 +132,8 @@
 										</a></h2>
 									</header>
 									<a href="https://unsplash.com" class="image fit"><img src="images/cst338snow.jpg" alt="" /></a>
-									<p>
-											Java skills will be tried and tested...
+									<p style="text-align: center;">
+											<strong>Programming Language </strong><br/>JAVA
 										</p>
 									
 									<ul class="actions special">
@@ -163,8 +162,13 @@
 														</p>
 													</div>
 													<div class="modal-footer">
-													  <button type="button" class="actions special" data-dismiss="modal">Close</button>
-													</div>
+														<h4><strong>Coursework: </strong></h4>
+													  <a class = "modal-footer" href ="https://tinyurl.com/4uax7mx9">Final Project</a>
+													  <br><br>
+													  
+												  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+												
+											  </div>
 												  </div>
 												</div>
 											  </div>
@@ -173,16 +177,48 @@
 								<article>
 									<header>
 										<span class="date">Spring 2020 Term A</span>
-										<h2><a href="#">CST 363 Database Management<br />
+										<h2><a href="#">CST 363 Intro to Databases<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>
-											This course provides balanced coverage of database use and design,focusing on relational databases. Students will learn to design relational schemas, write SQL queries, access a DB programmatically,and perform database administration. Students will gain a working knowledge of the algorithms and data structures used in query evaluation and transaction processing. Students will also learn to apply newer database technologies such as XML, NoSQL, and Hadoop. (Prereq: CST 238 and MATH 130 with a C- or better)
+									<a href="#" class="image fit"><img src="images/databases.jpeg" alt="half_moon-db" /></a>
+									<p style="text-align: center;">
+										<strong>Programming Languages </strong><br/>SQL and JAVA
 									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Coursework</a></li>
-									</ul>
+										<!-- Button trigger modal -->
+										<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal2">
+											Learn More
+										  </button>
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">CST 363</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body">
+												<p>		
+													This course provides balanced coverage of database use and design,focusing on relational databases. 
+											Students will learn to design relational schemas, write SQL queries, access a DB programmatically, and 
+											perform database administration. Students will gain a working knowledge of the algorithms and data 
+											structures used in query evaluation and transaction processing. Students will also learn to apply 
+											newer database technologies such as XML, NoSQL, and Hadoop. (Prereq: CST 238 and MATH 130 with a C- 
+											or better)
+												</p>
+											</div>
+											<div class="modal-footer">
+												<h4><strong>Coursework: </strong></h4>
+											  <a class = "modal-footer" href ="https://github.com/HelpingOtters/healthy-otters">Final Project</a>
+											  <br><br>
+											  
+										  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+										
+									  </div>
+										  </div>
+										</div>
+									  </div> <!-- End of Modal -->
 								</article>
 								<article>
 									<header>
@@ -190,13 +226,48 @@
 										<h2><a href="#">CST 334 Operating Systems<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>
-											Students in this course will learn about the use and design of modern operating systems, focusing on Linux. On the "use" side, students will learn the Linux command line, to write shell scripts, and to build programs with GNU utilities like awk, sed, and make. On the "design" side, students will develop a deep understanding of process management, memory management, file systems, and concurrency, and how they apply to modern technologies like virtualization and cloud computing. (Prereq: CST 238 and MATH 130 with a C- or better)
+									<a href="#" class="image fit"><img src="images/operating_systems.jpeg" alt="sky_dream_os" /></a>
+									<p style="text-align: center;">
+										<strong>Programming Language </strong><br/>C
 									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Coursework</a></li>
-									</ul>
+									<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal3">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 334</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Students in this course will learn about the use and design of modern operating systems, 
+											focusing on Linux. On the "use" side, students will learn the Linux command line, to write 
+											shell scripts, and to build programs with GNU utilities like awk, sed, and make. On the "design" 
+											side, students will develop a deep understanding of process management, memory management, file 
+											systems, and concurrency, and how they apply to modern technologies like virtualization and cloud 
+											computing. (Prereq: CST 238 and MATH 130 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/BarbosaRicardo/final-projects/tree/master/cst334-final-project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
+								
+										
+							
 								</article>
 								<article>
 									<header>
@@ -204,13 +275,45 @@
 										<h2><a href="#">CST 311 Intro to Networking<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>
-											Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internetworking protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking. Designed as a foundation for students who wish to pursue more advanced network studies including certificate programs. Includes hands-on networking labs that incorporate Cisco CCNA lab components. (Prereq: CST 238 and MATH 130 with a C- or better)
+									<a href="#" class="image fit"><img src="images/networking.jpeg" alt="italy_networking" /></a>
+									<p style="text-align: center;">
+										<strong>Programming Language </strong><br/>Python
 									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Coursework</a></li>
-									</ul>
+									<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal4">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 311</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, 
+											Internet and internetworking protocols including TCP/IP, network security and performance, 
+											emerging industry trends such as voice over the network and high speed networking. 
+											Designed as a foundation for students who wish to pursue more advanced network studies including 
+											certificate programs. Includes hands-on networking labs that incorporate Cisco CCNA lab components. 
+											(Prereq: CST 238 and MATH 130 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/BarbosaRicardo/final-projects/tree/master/cst311-final-project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 								</article>
 								<article>
 									<header>
@@ -218,13 +321,43 @@
 										<h2><a href="#">CST 336 Internet Programming<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>
-											Provides students with dynamic web application development skills, focusing on the integration of server-side programming, database connectivity, and client-side scripting. Coverage includes the Internet architecture, responsive design, RESTful web services, and Web APIs.  (Prereq: CST 238 with a C- or better)
+									<a href="#" class="image fit"><img src="images/internet-programming.jpeg" alt="" /></a>
+									<p style="text-align: center;">
+										<strong>Programming Languages </strong><br/>Javascript, HTML, CSS, Node.js
 									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Coursework</a></li>
-									</ul>
+									<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal5">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal5" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Provides students with dynamic web application development skills, focusing on the 
+											integration of server-side programming, database connectivity, and client-side scripting. 
+											Coverage includes the Internet architecture, responsive design, RESTful web services, 
+											and Web APIs.  (Prereq: CST 238 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/HelpingOtters/CST336_Project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 								</article>
 								<article>
 										<header>
@@ -232,13 +365,50 @@
 											<h2><a href="#">CST 462S: Race, Gender, Class in the Digital World<br />
 											</a></h2>
 										</header>
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<p>
-												Provides students with key knowledge of race, gender, class and social justice especially in relation to technology in today's digital world. Students challenge the barriers of expertise, gender, race, class, and location that restrict wider access to and understanding of the production and usage of new technologies. Students will engage in a practical experience in the community via their service placements, which will provide depth and context for considering questions of justice, equality, social responsibilities and the complexities of technology and its societal impact. The course uses scenario based approach combining presentations, discussions, and reflections to allow students explore the relationship between critical reflection and action on the topics mentioned above.  (Prereq: GE Areas A1 and A2 and A3 and B4 with a C- or better)
+										<a href="#" class="image fit"><img src="images/race_gender_class.jpeg" alt="" /></a>
+										<p style="text-align: center;">
+											<strong>Community Service </strong><br/>Taught Python at a private high school
 										</p>
-										<ul class="actions special">
-											<li><a href="#" class="button">Coursework</a></li>
-										</ul>
+										<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal6">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal6" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Provides students with key knowledge of race, gender, class and social justice especially 
+												in relation to technology in today's digital world. Students challenge the barriers of 
+												expertise, gender, race, class, and location that restrict wider access to and 
+												understanding of the production and usage of new technologies. Students will engage 
+												in a practical experience in the community via their service placements, which will 
+												provide depth and context for considering questions of justice, equality, social 
+												responsibilities and the complexities of technology and its societal impact. The 
+												course uses scenario based approach combining presentations, discussions, and 
+												reflections to allow students explore the relationship between critical reflection and 
+												action on the topics mentioned above.  (Prereq: GE Areas A1 and A2 and A3 and B4 with a 
+												C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://docs.google.com/document/d/1Zc62RSAX1ffnz5Ol8oYFZ9Y609KY10JD/edit">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 									</article>
 									<article>
 											<header>
@@ -246,27 +416,90 @@
 												<h2><a href="#">CST 328: Digital Art and Design<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													A survey course that combines the study of technology, design and aesthetic principles as they apply to twenty-first century visual media. Students learn how fundamental concepts of art and design apply to a broad range of commercial, expressive and entertainment forms. Students also study the democratization of the creative process through digital media, using current technology to produce sophisticated and expressive examples of personal digital creativity. (Prereq: GE Areas A1 and  A2 and  A3 and B4 with a C- or better)
+											<a href="#" class="image fit"><img src="images/digital_art_design.jpeg" alt="" /></a>
+											<p style="text-align: center;">
+												<strong>Software </strong><br/>Photoshop, Illustrator, UXDesign
 											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
+											<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal7">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal7" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												A survey course that combines the study of technology, design and aesthetic principles 
+													as they apply to twenty-first century visual media. Students learn how fundamental concepts 
+													of art and design apply to a broad range of commercial, expressive and entertainment forms. 
+													Students also study the democratization of the creative process through digital media, using 
+													current technology to produce sophisticated and expressive examples of personal digital 
+													creativity. (Prereq: GE Areas A1 and  A2 and  A3 and B4 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/BarbosaRicardo/final-projects/tree/master/cst328-final-project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 									</article>
 									<article>
 											<header>
 												<span class="date">Fall 2020 Term B</span>
-												<h2><a href="#">CST 370: Algorithms<br />
+												<h2><a href="#">CST 370: Design and Analysis of Algorithms<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													Students learn important data structures in computer science and acquire fundamental algorithm design techniques to get the efficient solutions to several computing problems from various disciplines. Topics include the analysis of algorithm efficiency, hash, heap, graph, tree, sorting and searching, brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer, dynamic programming, and greedy programming. (Prereq: CST 238 and MATH 170 with a C- or better)
+											<a href="#" class="image fit"><img src="images/algorithms.jpeg" alt="" /></a>
+											<p style="text-align: center;">
+												<strong>Programming Language </strong><br/>C++ and JAVA
 											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
+											<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal8">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal8" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Students learn important data structures in computer science and acquire fundamental algorithm 
+													design techniques to get the efficient solutions to several computing problems from various 
+													disciplines. Topics include the analysis of algorithm efficiency, hash, heap, graph, tree, 
+													sorting and searching, brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer, 
+													ynamic programming, and greedy programming. (Prereq: CST 238 and MATH 170 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/BarbosaRicardo/final-projects/tree/master/cst370-final-project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 										</article>
 									<article>
 											<header>
@@ -274,13 +507,45 @@
 												<h2><a href="#">CST 383: Intro to Data Science<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													In data science, data analysis and machine learning techniques are applied to visualize data, understand trends, and make predictions. In this course students will learn how to obtain data, preprocess it, apply machine learning methods, and visualize the results. A student who completes the course will have enough theoretical knowledge, and enough skill with modern statistical programming languages and their libraries,to define and perform complete data science projects. (Prereq: CST 238 with a C- or better)
+											<a href="#" class="image fit"><img src="images/data_science.jpeg" alt="" /></a>
+											<p style="text-align: center;">
+												<strong>Programming Languages </strong><br/>Python, Numpy, Pandas, Sci-kit
 											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
+											<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal9">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal9" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												In data science, data analysis and machine learning techniques are applied to visualize data, 
+													understand trends, and make predictions. In this course students will learn how to obtain data, 
+													preprocess it, apply machine learning methods, and visualize the results. A student who completes 
+													the course will have enough theoretical knowledge, and enough skill with modern statistical 
+													programming languages and their libraries,to define and perform complete data science projects. 
+													(Prereq: CST 238 with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/HelpingOtters/CST383_DS_Project">Final Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 									</article>
 									<article>
 											<header>
@@ -288,13 +553,45 @@
 												<h2><a href="#">CST 329: Reasoning with Logic<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													In this course students learn to develop skill in using logic to describe and assess arguments. Students will learn to write formulas in propositional and first-order logic, and more importantly, to write and check proofs. Students will also learn to write formulas in three-valued and modal logic, know how to choose an appropriate logic, and understand the limitations of logic in capturing human reasoning. [(Prereq: (GE Areas A1 and A2 and  A3 and B4) and (MATH 170) with a C- or better)]
+											<a href="#" class="image fit"><img src="images/reasoning_logic.jpeg" alt="" /></a>
+											<p style="text-align: center;">
+												<strong>Logic </strong><br/>Proof Writing
 											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
+											<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal10">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal10" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												In this course students learn to develop skill in using logic to describe and assess arguments. 
+													Students will learn to write formulas in propositional and first-order logic, and more 
+													importantly, to write and check proofs. Students will also learn to write formulas in 
+													three-valued and modal logic, know how to choose an appropriate logic, and understand the 
+													limitations of logic in capturing human reasoning. [(Prereq: (GE Areas A1 and A2 and  A3 and B4) 
+													and (MATH 170) with a C- or better)]
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/BarbosaRicardo/final-projects/tree/master/cst329-final-project">Coursework</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 									</article>
 									<article>
 											<header>
@@ -302,41 +599,67 @@
 												<h2><a href="#">CST 438: Software Engineering<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													Prepares students for large-scale software development using software engineering principles and techniques. Coverage includes software process, requirements analysis and specification, software design, implementation, testing, and project management. Students are expected to work in teams to carry out a realistic software project. (Prereq: CST 338 with a C- or better)
+											<a href="#" class="image fit"><img src="images/software_eng.jpeg" alt="" /></a>
+											<p style="text-align: center;">
+												<strong>Programming Languages </strong><br/>JAVA and Springboot
 											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
+													<!-- Button trigger modal -->
+									<button type="button" class="actions special" data-toggle="modal" data-target="#exampleModal11">
+										Learn More
+									  </button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal11" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h5 class="modal-title" id="exampleModalLabel">CST 336</h5>
+										  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
+										<div class="modal-body">
+											<p>		
+												Prepares students for large-scale software development using software engineering 
+													principles and techniques. Coverage includes software process, requirements analysis and 
+													specification, software design, implementation, testing, and project management. Students 
+													are expected to work in teams to carry out a realistic software project. (Prereq: CST 338 
+													with a C- or better)
+											</p>
+										</div>
+										<div class="modal-footer">
+											<h4><strong>Coursework: </strong></h4>
+										  <a class = "modal-footer" href ="https://github.com/maximanss/cst438project">Final Group Project</a>
+										  <br><br>
+										  
+									  <button type="button" class="actions special" data-dismiss="modal">Close</button>
+									
+								  </div>
+									  </div>
+									</div>
+								  </div> <!-- End of Modal -->
 									</article>
 									<article>
 											<header>
-												<span class="date">Summer 2021 Term B (Double Up)</span>
+												<span class="date">Summer 2021 Term B </span>
 												<h2><a href="#">CST 499: Capstone<br />
 												</a></h2>
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image fit"><img src="images/capstone.jpeg" alt="" /></a>
 											<p>
-													Students will work on a project in large groups (up to 5 students in each group), developing requirements specification, a solution plan followed by design and implementation of the solution. The problem statement for the projects will be selected by the faculty. Faculty will also play the role of a project manager directing the schedule and deliverables for these projects. (Prereq: CST 300 with a C- or better)
+													Students will work on a project in large groups (up to 5 students in each group), developing 
+													requirements specification, a solution plan followed by design and implementation of the solution. 
+													The problem statement for the projects will be selected by the faculty. Faculty will also 
+													play the role of a project manager directing the schedule and deliverables for these projects. 
+													(Prereq: CST 300 with a C- or better)
 \											</p>
 											<ul class="actions special">
 												<li><a href="#" class="button">Coursework</a></li>
 											</ul>
 									</article>
 									<article>
-											<header>
-												<span class="date">Summer 2021 Term B (Double Up)</span>
-												<h2><a href="#">CST 351: Web Design<br />
-												</a></h2>
+											<header>	
+												<span class="date">Commencement </span>	
 											</header>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<p>
-													Covers web design aesthetics, layout, structure and universal design. Applies the design process and systems design principles using web templates and web content management systems. (Prereq: CST 201 and CST 251 with a C- or better)
-\											</p>
-											<ul class="actions special">
-												<li><a href="#" class="button">Coursework</a></li>
-											</ul>
 									</article>
 							</section>
 
