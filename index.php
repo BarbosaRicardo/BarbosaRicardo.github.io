@@ -36,20 +36,13 @@
 						<a href="index.html" class="logo">Expected Graduation: August 2021</a>
 					</header>
 
-				<!-- Nav
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="https://ricardo-csumb.blogspot.com">Learning Journal</a></li>
-							<li><a href="https://github.com/barbosaricardo">GitHub Projects</a></li>
-							<li><a href="elements.html">Coding References and Links</a></li>
+				Nav
+					<nav id="nav" style="text-align: center;">
+						<ul class="icons" style="text-align: center;">
+							<li><a href="https://www.linkedin.com/in/barbosa-ricard0/" class="icon fa-instagram"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/barbosaricardo" class="icon fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav> -->
+					</nav>
 
 				<!-- Main -->
 					<div id="main">
